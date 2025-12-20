@@ -1,0 +1,117 @@
+[
+  {
+    "id": "_meta",
+    "author": "洋平",
+    "name": "毕业狂欢  v0.2"
+  },
+  {
+    "id": "preacher"
+  },
+  {
+    "id": "innkeeper"
+  },
+  {
+    "id": "gambler"
+  },
+  {
+    "id": "snakecharmer"
+  },
+  {
+    "id": "lycanthropebutton",
+    "name": "半兽人",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/lycanthrope.png",
+    "team": "townsfolk",
+    "ability": "每个夜晚*，你要选择一名存活的玩家，如果他是善良的，他死亡，并且当晚不会再有其他玩家死亡。",
+    "firstNight": -1,
+    "otherNight": 23,
+    "otherNightReminder": "半兽人指向一名存活玩家：如果那名玩家善良，则立刻死去且今夜不会再有玩家死亡。",
+    "reminders": [
+      "死亡"
+    ]
+  },
+  {
+    "id": "chambermaid"
+  },
+  {
+    "id": "princess"
+  },
+  {
+    "id": "gossip"
+  },
+  {
+    "id": "alsaahir"
+  },
+  {
+    "id": "alchemist"
+  },
+  {
+    "id": "banshee"
+  },
+  {
+    "id": "bingbi",
+    "name": "秉笔",
+    "image": "https://clocktower-wiki.gstonegames.com/images/thumb/2/2b/Bingbi.png/100px-Bingbi.png",
+    "team": "townsfolk",
+    "ability": "如果你在白天死亡，当晚你会得知一名善良玩家。如果你在夜晚死亡，当晚你会得知一名邪恶玩家。",
+    "firstNight": -1,
+    "otherNight": -1,
+    "reminders": [
+      "得知善良",
+      "得知邪恶"
+    ],
+    "remindersGlobal": []
+  },
+  {
+    "id": "poppygrower"
+  },
+  {
+    "id": "drunkbutton",
+    "name": "酒鬼",
+    "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/drunk.png",
+    "team": "outsider",
+    "ability": "你不知道你是酒鬼。你以为你是一个镇民角色，但其实你不是。",
+    "firstNight": -1,
+    "otherNight": -1,
+    "setup": true,
+    "reminders": [],
+    "remindersGlobal": [
+      "是酒鬼"
+    ]
+  },
+  {
+    "id": "damsel"
+  },
+  {
+    "id": "hatter"
+  },
+  {
+    "id": "hermit"
+  },
+  {
+    "id": "summoner"
+  },
+  {
+    "id": "godfather"
+  },
+  {
+    "id": "pithag"
+  },
+  {
+    "id": "psychopath"
+  },
+  {
+    "id": "boffin"
+  },
+  {
+    "id": "fanggu"
+  },
+  {
+    "id": "alhadikhia"
+  },
+  {
+    "id": "lilmonsta"
+  },
+  {
+    "id": "bootlegger"
+  }
+]

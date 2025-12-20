@@ -1,0 +1,207 @@
+[{
+  "id": "_meta",
+  "author": "洋平",
+  "name": "宛平南路600号  v1.0",
+  "firstNight": ["dusk", "timetraveler", "genius", "alchemist", "poppygrower", "minioninfo", "luonan", "lunatic", "2_bundagee_inn_massacre_bigyellowfish", "demoninfo", "snakecharmer", "reporter", "schizophrenic", "60_rose", "shugenja_c", "langzhong_button", "lovebrain", "dawn"],
+  "otherNight": ["dusk", "timetraveler", "genius", "17_newhero", "lovebrain", "poppygrower", "2_bundagee_inn_massacre_bigyellowfish", "snakecharmer", "lunatic", "mindreader", "princess", "shabaloth", "fanggu", "grist", "alhadikhia", "50_che", "banshee", "reporter", "60_rose", "langzhong_button", "dawn"],
+  "bootlegger": [""]
+}, {
+  "id": "reporter",
+  "name": "卧底记者",
+  "image": "https://i.postimg.cc/L8n4wqSh/1703696848-197011-554.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "在你的首个夜晚，你得知一个在场角色。每个夜晚仅一次猜测他是谁：如果猜对，你或他变成一个不在场角色。",
+  "firstNight": 60,
+  "otherNight": 60,
+  "firstNightReminder": "唤醒卧底记者，对他展示一个在场镇民角色标记。然后他可以摇头不使用能力，或者选择一名玩家。如果卧底记者选中了采访对象，则在巡山人入睡后通知对应角色变化。",
+  "otherNightReminder": "唤醒卧底记者，他可以摇头不使用能力，或者选择一名玩家。如果卧底记者选中了采访对象，则在巡山人入睡后通知对应角色变化。",
+  "reminders": ["采访对象", "失去能力"],
+  "remindersGlobal": []
+}, {
+  "id": "shugenja_c",
+  "name": "修行者",
+  "image": "https://i.postimg.cc/4xZgHfB4/xiu-xing-zhe.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。",
+  "firstNight": 12000,
+  "otherNight": 0,
+  "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。如果修行者两侧最近的邪恶玩家与他的距离相等，由你来决定告诉他什么样的信息，并用手指指向对应的一侧。让修行者重新入睡。",
+  "reminders": [],
+  "remindersGlobal": [],
+  "special": [{
+    "name": "card",
+    "type": "signal",
+    "value": "顺时针"
+  }, {
+    "name": "card",
+    "type": "signal",
+    "value": "逆时针"
+  }]
+}, {
+  "id": "genius",
+  "name": "天才",
+  "image": "https://i.postimg.cc/Pf1WrwNy/image-6.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "每个夜晚，你可以选择一个善良角色。你拥有上次选择的角色能力。你每个奇数或偶数天醉酒。",
+  "firstNight": 3,
+  "otherNight": 3,
+  "remindersGlobal": ["醉酒", "是天才"],
+  "firstNightReminder": "天才可以选择一个善良角色。如有需要，将天才的角色标记更换为他选择的角色标记。",
+  "otherNightReminder": "天才可以选择一个善良角色。如有需要，将天才的角色标记更换为他选择的角色标记。",
+  "jinxes": [{
+    "id": "princess",
+    "reason": "如果天才选择公主后的首个白天提名并处决了一名玩家，当晚恶魔不会造成死亡。"
+  }, {
+    "id": "poppygrower",
+    "reason": "如果天才获得了罂粟种植者的能力，当他获得下一个能力时，爪牙和恶魔也会互相认识。"
+  }, {
+    "id": "lovebrain",
+    "reason": "即使天才失去了恋爱脑的能力，他仍然可能转变为邪恶阵营。"
+  }, {
+    "id": "timetraveler",
+    "reason": "只要天才被发现正拥有或曾经拥有穿越者的能力，他随时可能死亡。"
+  }]
+}, "snakecharmer", {
+  "id": "langzhong_button",
+  "name": "郎中",
+  "image": "https://i.postimg.cc/y8nwJFDT/lang-zhong.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "每个夜晚，你要选择一名玩家：你会得知一个与他能力相关的词语。",
+  "firstNight": 93,
+  "otherNight": 122,
+  "firstNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+  "otherNightReminder": "唤醒郎中，让其指向一名玩家。以不会被其他玩家察觉的形式对其提供与该玩家角色能力相关的一个词语。",
+  "reminders": [],
+  "remindersGlobal": []
+}, {
+  "id": "60_rose",
+  "name": "吃瓜群众",
+  "image": "https://i.postimg.cc/2yyfDZPs/c-0697822943171-0efef766.png",
+  "team": "townsfolk",
+  "ability": "每个夜晚，你得知一些信息。在白天，你可以让说书人告知上一晚信息的含义，然后你失去能力。",
+  "flavor": "事无分巨细，只要你对他有信心，神必垂听、应允你的祷告。",
+  "firstNight": 100,
+  "otherNight": 130,
+  "firstNightReminder": "唤醒他并向他展示任意能力可能得知的信息。",
+  "otherNightReminder": "唤醒他并向他展示任意能力可能得知的信息。",
+  "reminders": ["失去能力"]
+}, {
+  "id": "2_bundagee_inn_massacre_bigyellowfish",
+  "name": "陪酒女",
+  "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/2_bundagee_inn_massacre_bigyellowfish.png",
+  "team": "townsfolk",
+  "ability": "每个夜晚*，你要选择一个角色（与之前的选择都不同）：他醉酒直到下个黄昏。",
+  "flavor": "呃，又一个夜班。只要我还遇到那些满头大汗，烂醉如泥的混蛋来到酒吧并且和我搭话，我可能会辞职……",
+  "firstNight": 0,
+  "otherNight": 12,
+  "otherNightReminder": "唤醒陪酒女，让他选择一个角色。",
+  "reminders": ["醉酒"]
+}, {
+  "id": "mindreader",
+  "name": "心理医生",
+  "image": "https://www.bloodstar.xyz/p/humlet/Dafenqi/53_dafenqi.png",
+  "team": "townsfolk",
+  "ability": "每个夜晚*，你猜测当晚哪一名玩家会被恶魔选择：如果猜对，你和恶魔会得知。累计两次猜对，善良阵营获胜。",
+  "firstNight": 0,
+  "otherNight": 10,
+  "otherNightReminder": "唤醒心理医生，让他选择一名玩家。",
+  "reminders": ["猜测", "猜对了"]
+}, "princess", "alsaahir", "banshee", "poppygrower", "alchemist", {
+  "id": "timetraveler",
+  "name": "穿越者",
+  "image": "https://i.postimg.cc/CMBZsvtJ/image.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "你拥有一个不在剧本列表的镇民能力。如果你被发现是穿越者，你随时会死亡。",
+  "firstNight": 1,
+  "otherNight": 1,
+  "firstNightReminder": "决定穿越的能力，并根据具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
+  "otherNightReminder": "根据失忆者的具体能力决定是否需要唤醒失忆者、何时唤醒、唤醒后让他做出什么操作或得知什么信息。",
+  "reminders": ["被发现"],
+  "remindersGlobal": []
+}, {
+  "id": "lovebrain",
+  "name": "恋爱脑",
+  "image": "https://www.bloodstar.xyz/p/humlet/che/25_che.png",
+  "team": "outsider",
+  "ability": "在你的首个夜晚，你会得知一名邪恶玩家。如果你没有“疯狂”地证明他是善良的，你可能会转变为邪恶，即使你已死亡。",
+  "flavor": "若你真诚以待，这便是我们浪漫故事的开篇。",
+  "firstNight": 90,
+  "otherNight": 5,
+  "firstNightReminder": "唤醒恋爱脑，对他指向一名邪恶玩家。",
+  "otherNightReminder": "如果恋爱脑对他的信息疯狂，告知他转变为邪恶。",
+  "reminders": ["得知", "转为邪恶"]
+}, {
+  "id": "17_newhero",
+  "name": "傻子",
+  "image": "https://www.bloodstar.xyz/p/ligohigh1991/NewHero/17_newhero.png",
+  "team": "outsider",
+  "ability": "如果你没有“疯狂”证明自己是某个镇民角色，你可能会死亡。你死亡时，可能会有一名玩家变成傻子。",
+  "flavor": "傻子，他总是比聪明人快乐。",
+  "firstNight": 0,
+  "otherNight": 4,
+  "otherNightReminder": "如果他于处决，当晚一名存活的玩家变成傻子。",
+  "reminders": ["死于今日", "疯狂"]
+}, {
+  "id": "luonan",
+  "name": "落难少女",
+  "image": "https://i.postimg.cc/4yctG8V7/damsel.png",
+  "team": "outsider",
+  "edition": "custom",
+  "ability": "爪牙知道落难少女在场。每局游戏限一次，任意爪牙可以公开猜测你是落难少女，如果猜对，你的阵营落败。",
+  "firstNight": 16,
+  "otherNight": 0,
+  "firstNightReminder": "如果落难少女在场，对爪牙展示落难少女角色标记。",
+  "otherNightReminder": "0",
+  "reminders": ["已被猜测"]
+}, "lunatic", "psychopath", {
+  "id": "omen",
+  "name": "妄想症患者",
+  "image": "https://www.bloodstar.xyz/p/Airell_clocktower/Assets_of_Lei_Gallery/klaun_assets_of_lei_gallery.png",
+  "team": "minion",
+  "edition": "custom",
+  "ability": "你“疯狂”地证明的事情可能会成真。",
+  "firstNight": 0,
+  "otherNight": 0,
+  "remindersGlobal": ["是妄想症患者"]
+}, {
+  "id": "50_che",
+  "name": "失眠患者",
+  "image": "https://i.postimg.cc/5y84Rn2C/7tww0qs30ci7y6x7.png",
+  "team": "minion",
+  "ability": "每个夜晚*，你得知当天死亡的外来者玩家，且你要猜测他的角色，如果猜对，会有一名玩家死亡。[+1外来者]",
+  "flavor": "你怎么在外面乱跑、快回去。",
+  "firstNight": 0,
+  "otherNight": 13,
+  "otherNightReminder": "如果今天在唤醒失眠患者之前有外来者死亡，唤醒失眠患者，告知他死亡的外来者玩家是谁，并让他猜测具体角色，如果他猜中至少一名，标记一名玩家死亡，然后去除所有的“死于今日”标记。",
+  "reminders": ["死亡", "死于今日"],
+  "setup": true
+}, {
+  "id": "schizophrenic",
+  "name": "精神分裂患者",
+  "image": "https://www.bloodstar.xyz/p/humlet/ROSE/59_rose.png",
+  "team": "minion",
+  "ability": "场上会有两个角色一样的善良玩家，你知道是什么角色。[+在场善良角色]",
+  "flavor": "我是奶龙。不，我才是奶龙。",
+  "firstNight": 17,
+  "otherNight": 0,
+  "firstNightReminder": "告知精神分裂患者哪个重复的善良角色在场。",
+  "setup": true
+}, "alhadikhia", {
+  "id": "grist",
+  "name": "冤魂",
+  "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/22_bundagee_inn_massacre_bigyellowfish.png",
+  "team": "demon",
+  "edition": "custom",
+  "ability": "每个夜晚*，你要选择一名玩家：他死亡。如果你死于角色能力，会有一名爪牙变为邪恶的冤魂。",
+  "flavor": "做鬼死了也不会放过你！！！",
+  "firstNight": 0,
+  "otherNight": 23,
+  "otherNightReminder": "唤醒冤魂，让他指向一名玩家。那名玩家死亡。如果冤魂死于角色能力，说书人选择一名爪牙，为他放置“是冤魂”标记，并将他的角色标记替换为冤魂的角色标记。唤醒该玩家，向他展示“你是”提示卡，并展示冤魂的角色标记。",
+  "reminders": ["死亡"],
+  "remindersGlobal": []
+}, "fanggu", "shabaloth", "bootlegger"]

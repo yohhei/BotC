@@ -1,0 +1,183 @@
+[{
+  "id": "_meta",
+  "author": "洋平",
+  "name": "答非所问 v0.1",
+  "firstNight": ["dusk", "amnesiac", "alchemist", "minioninfo", "bixian", "cyclops", "demoninfo", "2_dafenqi", "pixie", "noble", "1_baobao", "bootblack", "noble", "priest", "empath", "dawn"],
+  "otherNight": ["dusk", "amnesiac", "bixian", "cyclops", "princess", "fanggu", "vortox", "taotiebutton", "spree", "student", "inquisitor", "plaguedoctor", "2_dafenqi", "bootblack", "priest", "empath", "afonb", "dawn"]
+}, "pixie", "noble", {
+  "id": "1_baobao",
+  "name": "修行者",
+  "image": "https://www.bloodstar.xyz/p/humlet/baobao/1_baobao.png",
+  "team": "townsfolk",
+  "ability": "在你的首个夜晚，你会得知距离最近的邪恶玩家位于你的顺时针还是逆时针方向。",
+  "flavor": "此即梦境。彼亦梦境。所见之物，非此即彼。",
+  "firstNight": 7500,
+  "otherNight": 0,
+  "firstNightReminder": "在首个夜晚，唤醒修行者。用手指水平指向修行者的某一侧，告诉他与他距离最近的邪恶玩家位于这一侧。"
+}, {
+  "id": "priest",
+  "name": "牧师",
+  "image": "https://www.bloodstar.xyz/p/humlet/ROSE/60_rose.png",
+  "team": "townsfolk",
+  "ability": "每个夜晚，你要选择除你以外的两名玩家:你会得知他们皆不属于哪种角色类型。",
+  "flavor": "事无分巨细，只要你对他有信心，神必垂听、应允你的祷告。",
+  "firstNight": 25,
+  "otherNight": 17,
+  "firstNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。",
+  "otherNightReminder": "唤醒他并让他选择2名玩家，告知他选择的玩家皆不属于哪种角色类型。"
+}, "empath", {
+  "id": "bootblack",
+  "name": "擦鞋匠",
+  "image": "https://i.postimg.cc/qMB60YXw/bootblack.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "每个夜晚，你会得知与存活的邪恶玩家邻近的存活的外来者的数量。[+1外来者]",
+  "firstNight": 42,
+  "otherNight": 41,
+  "firstNightReminder": "唤醒擦鞋匠，向他展示与存活的邪恶玩家邻近的存活的外来者数量的手势。",
+  "otherNightReminder": "唤醒擦鞋匠，向他展示与存活的邪恶玩家邻近的存活的外来者数量的手势。",
+  "reminders": [],
+  "remindersGlobal": [],
+  "setup": 1
+}, {
+  "id": "afonb",
+  "name": "隐修士",
+  "image": "https://free.picui.cn/free/2025/06/19/6853d8232f5be.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "每个夜晚*，如果你没有“疯狂”证明自己是任何一个角色，你会得知一条信息。",
+  "firstNight": 0,
+  "otherNight": 1600,
+  "otherNightReminder": "如果隐修士没有疯狂证明自己是任何一个角色，唤醒他并向他展示一条信息。",
+  "reminders": ["失去能力"],
+  "special": [{
+    "name": "bag-duplicate",
+    "type": "selection"
+  }]
+}, "princess", "alsaahir", {
+  "id": "inquisitor",
+  "name": "审判官",
+  "image": "https://i.postimg.cc/02FzmbX5/inquisitor.png",
+  "team": "townsfolk",
+  "edition": "custom",
+  "ability": "每局游戏限一次，你可以在白天公开选择一名玩家并问一个是非问题：如果他没有如实回答，他会在当晚死亡。",
+  "firstNight": 0,
+  "otherNight": 24,
+  "otherNightReminder": "如果被提问的玩家没有如实回答：他死亡。",
+  "reminders": ["死亡", "失去能力"],
+  "remindersGlobal": []
+}, {
+  "id": "student",
+  "name": "学生",
+  "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/10_bundagee_inn_massacre_bigyellowfish.png",
+  "team": "townsfolk",
+  "ability": "每个白天，你可以私下询问说书人一个问题：如果说书人回答了你，你可能会在当晚死亡。",
+  "flavor": "老师，打扰一下，关于您上次的心理学课程我有个问题！您说到大多数自恋者会让别人不舒服并以此为乐，而莎莉美丽的双眼让我不舒服，这是否意味着她是自恋者？",
+  "firstNight": 0,
+  "otherNight": 16,
+  "otherNightReminder": "如果你回答了学生的问题，标记学生“好奇害死猫”。如果学生拥有此标记，他可以死亡。",
+  "reminders": ["好奇害死猫", "死亡"]
+}, "alchemist", "amnesiac", "plaguedoctor", {
+  "id": "17_dafenqi",
+  "name": "大小姐",
+  "image": "https://www.bloodstar.xyz/p/humlet/Dafenqi/17_dafenqi.png",
+  "team": "outsider",
+  "ability": "你首次即将死亡时，可能会有两名存活玩家代替你死亡。",
+  "flavor": "你！你！你！和你！",
+  "firstNight": 0,
+  "otherNight": 0,
+  "reminders": ["舔狗替死"]
+}, {
+  "id": "45_rose",
+  "name": "地狱弃子",
+  "image": "https://www.bloodstar.xyz/p/humlet/ROSE/45_rose.png",
+  "team": "outsider",
+  "ability": "每个白天提名开始前，爪牙可以公开拥立地狱弃子：你立即转变为邪恶且与恶魔交换角色，然后他醉酒。",
+  "flavor": "他们剪去我的双翼，掷我于蛮荒。每寸腐土都在倒数，等地狱拥立他们的新王。",
+  "firstNight": 0,
+  "otherNight": 0,
+  "reminders": ["罢黜（醉酒）"]
+}, {
+  "id": "14_bundagee_inn_massacre_bigyellowfish",
+  "name": "贱民",
+  "image": "https://www.bloodstar.xyz/p/bigyellowfish/Bundagee_Inn_Massacre_Bigyellowfish/14_bundagee_inn_massacre_bigyellowfish.png",
+  "team": "outsider",
+  "ability": "如果你或一名存活外来者“疯狂”地证明自己是外来者，可能会有一名善良玩家被处决，即使你已死亡。",
+  "flavor": "大家安静！我们在这不受欢迎……我知道这不公平但这个城市还没准备好接受我们的文化。媒体把我们描绘成捣乱者已经够糟糕了，我不需要这些大老粗开始在街头辱骂我们……",
+  "firstNight": 0,
+  "otherNight": 0,
+  "reminders": []
+}, {
+  "id": "bixian",
+  "name": "笔仙",
+  "image": "https://i.postimg.cc/fRPMW6n7/image.webp",
+  "team": "minion",
+  "edition": "custom",
+  "ability": "在你的首个夜晚，你要选择一名玩家：他中毒。每局游戏限一次，你可以更换你的选择，上一个被你选中的玩家死亡。",
+  "firstNight": 16,
+  "otherNight": 1,
+  "firstNightReminder": "唤醒笔仙，让他选择另一名玩家。",
+  "otherNightReminder": "如果笔仙未曾使用能力，唤醒笔仙，他可以摇头不使用能力，或选择另一名玩家。",
+  "reminders": ["中毒", "失去能力", "死亡"]
+}, {
+  "id": "cyclops",
+  "name": "独眼巨人",
+  "image": "https://www.bloodstar.xyz/p/humlet/ROSE/62_rose.png",
+  "team": "minion",
+  "ability": "每个夜晚，你要选择一名玩家：你和恶魔会得知他是什么角色。被你选择的外来者会得知独眼巨人在场。[+1外来者]",
+  "flavor": "我会在黑暗中窥视你的灵魂...哦？好独特的...滚开！肮脏的外乡人！",
+  "firstNight": 17,
+  "otherNight": 2,
+  "firstNightReminder": "唤醒他，并让他选择一名玩家，告知他该玩家的角色，然后让他重新入睡，然后唤醒恶魔，告知恶魔该玩家的角色，然后让恶魔重新入睡。如果他选择的是一名外来者，唤醒该外来者，告知外来者独眼巨人在场，然后让该外来者重新入睡。",
+  "otherNightReminder": "唤醒他，并让他选择一名玩家，告知他该玩家的角色，然后让他重新入睡，然后唤醒恶魔，告知恶魔该玩家的角色，然后让恶魔重新入睡。如果他选择的是一名外来者，唤醒该外来者，告知外来者独眼巨人在场，然后让该外来者重新入睡。",
+  "reminders": ["得知"],
+  "setup": true
+}, {
+  "id": "2_dafenqi",
+  "name": "斯芬克斯",
+  "image": "https://tc.z.wiki/autoupload/f/VhyhRBYwrsv78oJxqNakt8Yn4lro6EikVVJtuTL9tziyl5f0KlZfm6UsKj-HyTuv/20250713/Ov1b/633X633/%E6%96%AF%E8%8A%AC%E5%85%8B%E6%96%AF.png",
+  "team": "minion",
+  "ability": "每个夜晚，你可以选择一名玩家：下个提名阶段，说书人会首先提名该玩家并问他一个是非问题，如果他答错那么他可能会被处决。",
+  "flavor": "什么动物早晨用四条腿走路，中午用两条腿走路，晚上用三条腿走路？",
+  "firstNight": 18,
+  "otherNight": 2,
+  "firstNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
+  "otherNightReminder": "唤醒斯芬克斯，并问他是否选择一名玩家。",
+  "remindersGlobal": ["被提问"]
+}, {
+  "id": "omen",
+  "name": "预兆",
+  "image": "https://i.postimg.cc/2yH2T4bK/omen.png",
+  "team": "minion",
+  "edition": "custom",
+  "ability": "你“疯狂”地证明存在的事情可能会成真。",
+  "firstNight": 0,
+  "otherNight": 0,
+  "reminders": ["？"],
+  "remindersGlobal": []
+}, {
+  "id": "taotiebutton",
+  "name": "饕餮",
+  "image": "https://oss.gstonegames.com/data_file/clocktower/web/icons/taotie.png",
+  "team": "demon",
+  "edition": "custom",
+  "ability": "每个夜晚*，你要选择任意数量的非旅行者玩家或一名旅行者玩家：如果他们的角色类型均不相同，他们死亡。[+1外来者]",
+  "firstNight": 0,
+  "otherNight": 34,
+  "otherNightReminder": "唤醒饕餮，让其选择任意数量的玩家。如果这些玩家的角色类型均不相同，标记这些玩家死亡。",
+  "reminders": ["死亡"],
+  "remindersGlobal": [],
+  "setup": true
+}, {
+  "id": "spree",
+  "name": "狂戮",
+  "image": "https://i.postimg.cc/pTNsGfW0/spree.png",
+  "team": "demon",
+  "edition": "custom",
+  "ability": "每个夜晚*，你可以选择任意名玩家，并猜测他们是哪些善良角色：如果你都没猜错，他们死亡。如果你不做选择，会有一名玩家死亡。",
+  "firstNight": 0,
+  "otherNight": 33,
+  "otherNightReminder": "唤醒狂戮，他要么摇头，要么指向一名玩家，然后指向角色列表上的一个善良角色。直到他不再猜测。如果他猜测的角色全都正确，所有这些玩家以被选择的顺序死亡。如果他不做选择，说书人选择一名玩家：他死亡。",
+  "reminders": ["死亡"],
+  "remindersGlobal": []
+}, "vortox", "fanggu", "bootlegger"]

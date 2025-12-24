@@ -8,7 +8,7 @@
 }, {
   "id": "reporter",
   "name": "卧底记者",
-  "image": "https://i.postimg.cc/Rhyf606M/wo-di-ji-zhe.png",
+  "image": "https://i.postimg.cc/02hxdWdG/wo-di-ji-zhe.png",
   "team": "townsfolk",
   "edition": "custom",
   "ability": "在你的首个夜晚，你得知一个在场角色。在夜晚仅一次猜测他是谁：如果猜对，你或他变成一个不在场角色。",
@@ -121,13 +121,13 @@
   "name": "恋爱脑",
   "image": "https://i.postimg.cc/mD5JD0RG/processed-icon-(4).png",
   "team": "outsider",
-  "ability": "在你的首个夜晚，你要选择一名玩家：如果你没有“疯狂”证明他是善良的，你可能会转变为邪恶。",
+  "ability": "在你的首个夜晚，你要选择除你以外的一名玩家：如果你没有“疯狂”证明他是善良的，你可能会转变为邪恶。",
   "flavor": "若你真诚以待，这便是我们浪漫故事的开篇。",
   "firstNight": 90,
   "otherNight": 5,
   "firstNightReminder": "唤醒恋爱脑，让他指向一名玩家。",
   "otherNightReminder": "如果恋爱脑不够疯狂，告知他转变为邪恶。",
-  "reminders": ["白月光", "转为邪恶"]
+  "reminders": ["白月光"]
 }, {
   "id": "17_newhero",
   "name": "傻子",

@@ -119,7 +119,7 @@
   "otherNight": 5,
   "firstNightReminder": "唤醒恋爱脑，对他指向一名邪恶玩家。",
   "otherNightReminder": "如果恋爱脑不够疯狂，告知他转变为邪恶。",
-  "reminders": ["白月光", "转为邪恶"]
+  "reminders": ["白月光"]
 }, {
   "id": "17_newhero",
   "name": "傻子",
